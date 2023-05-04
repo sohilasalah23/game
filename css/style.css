@@ -1,0 +1,87 @@
+#header img{
+    /* background-image: url(../img/img1.png); */
+    background-repeat: no-repeat;
+    height: 30vh;
+    object-fit: cover;
+    background-size: cover;
+}
+    
+
+
+body{
+    background-color:#272b30 ;
+    font-family: 'Comfortaa', cursive;
+}
+.navbar{
+    /* position: sticky; */
+    margin-top: -2rem;
+    
+
+}
+nav{
+    background-color: rgb(58, 73, 123) ;
+    /* position: sticky; */
+    /* bottom: 0; */
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 , 0.7);
+} 
+nav li a{
+    text-transform: uppercase;
+}
+.card-body span{
+    /* background-color: rgb(58, 73, 123) ; */
+    border: none;
+}
+.nav-link {
+    color: white;
+}
+.navbar-nav .nav-link.active{
+    color: aqua;
+}
+.nav-link:focus, .nav-link:hover{
+    color: aqua;
+
+}
+.card{
+    height: 100%;
+    transition: all 1s;
+    
+        filter: grayscale(0.7);
+
+}
+
+
+.card:hover{
+    scale: 1.1;
+    filter: none;
+
+}
+.card-body span:hover{
+    background-color: aqua;
+    border: none;
+
+}
+
+
+#closebtn{
+color: gray;
+}
+#closebtn:hover{
+    color: white;
+
+}
+
+
+button a{
+    text-decoration: none;
+    color: white;
+
+}
+button{
+    border: solid 2px #ffc107;
+    border-radius: 10px;
+    background-color: transparent;
+}
+button:hover{
+    background-color: #ffc107;
+
+}
