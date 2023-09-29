@@ -48,10 +48,9 @@ nav li a{
         filter: grayscale(0.7);
 
 }
-.row > *{
+.row > * .card{
     padding: 0px;
-    display: flex;
-    justify-content: center;
+ 
 }
 
 
