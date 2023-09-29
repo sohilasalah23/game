@@ -48,6 +48,11 @@ nav li a{
         filter: grayscale(0.7);
 
 }
+.row > *{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
 
 
 .card:hover{
@@ -84,4 +89,12 @@ button{
 button:hover{
     background-color: #ffc107;
 
+}
+/* media */
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .col-xl-3{
+        width: 33.3%;
+        
+    }
+    
 }

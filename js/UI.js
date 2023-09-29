@@ -3,7 +3,7 @@
    let cartona =``
     for (let i = 0; i < data.length; i++) {
       cartona +=` 
-      <div class="col-md-3  ">
+      <div class="col-xl-3 col-lg-4 col-md-6 cart   ">
         <div data-id="${data[i].id}"  class="card  bg-transparent p-2  " role="button" style="width: 18rem; hight:100%">
         
         <div class="position-relative">
@@ -36,7 +36,7 @@
 
    displaydetials(data) {
       let cartona =`
-      <div class="col-md-4 ">
+      <div class="col-md-4  ">
       <img src="${data.thumbnail}" alt="">
 
     </div>   
